@@ -17,7 +17,7 @@ define Package/xray-core
   SUBMENU:=VPN
   TITLE:=Xray Core (STDSTRX Custom Build)
   URL:=https://github.com/XTLS/Xray-core
-  DEPENDS:=+libpthread +libsodium +libmbedtls
+  DEPENDS:=+libpthread +libmbedtls
 endef
 
 define Package/xray-core/description
